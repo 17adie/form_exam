@@ -1,0 +1,11 @@
+CREATE DATABASE form_tbl;
+
+CREATE TABLE users(
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  fullName VARCHAR(50) NOT NULL,
+  emailAddress VARCHAR(50) NOT NULL,
+  mobileNumber VARCHAR(11) NOT NULL,
+  dateOfBirth DATE NOT NULL,
+  gender VARCHAR(10) NOT NULL,
+  age INT NOT NULL
+);
